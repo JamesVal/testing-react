@@ -1,0 +1,50 @@
+.data-container {
+  text-align: center;
+}
+
+.data-table {
+  display: inline-block;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.data-table th:first-child {
+  width: 9%;
+}
+
+.data-table th:nth-child(2) {
+  width: 30%;  
+}
+
+.data-table th {
+  width: 60%;
+  background-color: #282c34;
+  color: white;
+  padding: 10px;
+}
+
+.data-table tr.odd {
+  background-color: #e8e8e8;
+}
+
+.data-table td {
+  padding: 5px;
+}
+
+.link-container {
+  padding: 15px;
+}
+
+.link-tab {
+  color: green;
+}
+
+.link-tab:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.table-header {
+  text-align: left;
+  font-weight: bold;
+}
